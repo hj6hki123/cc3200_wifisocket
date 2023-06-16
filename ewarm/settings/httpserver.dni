@@ -1,0 +1,58 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[LMIFTDIDriver]
+LMI_ResetMode=0x00000000
+[DebugChecksum]
+Checksum=-1493117350
+[LMIFTDI]
+LMIFTDIserialNo=cc3200A
+LMIFTDIfoundProbes=
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[array_types]
+Fmt0=char[28]	4	0
+Fmt1=unsigned int[6]	4	0
+Fmt2=unsigned short[6]	4	0
+[watch_formats]
+Fmt0={W}1:g_csend	0	3
+Fmt1={W}1:g_ulDestinationIp	4	0
+Fmt2={W}1:l	0	9
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[DriverProfiling]
+Enabled=0
+Mode=0
+Graph=0
+Symbiont=0
+Exclusions=
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[Disassemble mode]
+mode=0
+[Breakpoints]
+Count=0
+[Aliases]
+A0=_ "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\inc\c\DLib_Product_string.h" ""
+A1=_ "C:\ti_2\CC3200_INT_SDK\source\simplelink\source\device.c" ""
+A2=_ "C:\ti_2\CC3200_INT_SDK\source\simplelink\source\fs.c" ""
+A3=_ "D:\R1\git\source-1p2-rahul\driverlib\prcm.c" ""
+A4=_ "D:\work_2016\testing\R1_final_package_compilation\source-1p2-rahul\oslib\osi_freertos.c" ""
+A5=_ "D:\work_2016\testing\R1_final_package_compilation\source-1p2-rahul\third_party\FreeRTOS\source\tasks.c" ""
+Count=6
+SuppressDialog=1
